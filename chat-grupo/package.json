@@ -1,0 +1,19 @@
+{
+  "name": "chat-grupo",
+  "version": "1.0.0",
+  "description": "Chat Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grpc"
+  ],
+  "author": "Daniela Ocampo",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "google-protobuf": "^3.14.0",
+    "grpc": "^1.24.4"
+  }
+}
